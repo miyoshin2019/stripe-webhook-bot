@@ -1,11 +1,15 @@
 {
-  "name": "stripe-webhook-bot",
+  "name": "stripe-discord-bot",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "@sendgrid/mail": "^8.1.6",
-    "discord.js": "^14.13.0",
-    "node-fetch": "^3.3.2"
+    "discord.js": "^14.14.0",
+    "google-spreadsheet": "^3.4.0",
+    "node-cron": "^3.0.2",
+    "@sendgrid/mail": "^7.8.0",
+    "node-fetch": "^3.3.1"
   }
 }
